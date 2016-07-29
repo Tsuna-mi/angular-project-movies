@@ -87,8 +87,7 @@ main{
 
 #movies h2 a{
 	color: #FF5600;				/*naranja*/
-	letter-spacing: normal;
-	
+	letter-spacing: normal;	
 }
 
 #movies .movie{	
@@ -98,7 +97,8 @@ main{
 	/*align-self: center;*/
 	/*padding:10px 40px;*/
 }
-#movies .movie .moviethumb{
+#movies .movie .moviethumb img{
 	max-width: 92px;
 	margin: 0 auto;
 }
+

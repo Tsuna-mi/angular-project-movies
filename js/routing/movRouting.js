@@ -4,23 +4,23 @@ angular.module("movConfig", [])
 
 			$routeProvider
 				.when('/',{
-					templateUrl: '/templates/popular.html',
+					templateUrl: '/templates/results.html',
 					controller: 'PopularTmplCtrl'
 				})
 				.when('/popular',{
-					templateUrl: '/templates/popular.html',
+					templateUrl: '/templates/results.html',
 					controller: 'PopularTmplCtrl'
 				})
 				.when('/upcoming',{
-					templateUrl: '/templates/upcoming.html',
+					templateUrl: '/templates/results.html',
 					controller: 'UpcomingTmplCtrl'
 				})
 				.when('/nowPlaying',{
-					templateUrl: '/templates/nowPlaying.html',
+					templateUrl: '/templates/results.html',
 					controller: 'NowPlayingTmplCtrl'
 				})
 				.when('/topRated',{
-					templateUrl: '/templates/topRated.html',
+					templateUrl: '/templates/results.html',
 					controller: 'TopRatedTmplCtrl'
 				})
 				.otherwise({ redirectTo: '/' }); ;
