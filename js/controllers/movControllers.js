@@ -5,8 +5,13 @@ angular.module("movControllers", ['ngRoute', 'movServices'])
    			dataFactory.getMovies( 'popular' )
 				.then( function ( dataMoviesReceived ) {
 					$scope.amovies =  dataMoviesReceived.data.results;
+					
+		
 				})
  	}])
+
+ 	// http://image.tmdb.org/t/p/w500/cGOPbv9wA5gEejkUN892JrveARt.jpg
+
 
 	// .controller("UpcomingTmplCtrl", function( $scope, $http ) {
 	// 		$scope.contenthome = "";

@@ -1,9 +1,12 @@
 <div>
-	<section id="movies">
-		<article class="movie">
-			<div class="moviethumb"><p>kdfjkdjfsk sjdflkadsjflajdflja</p></div>
-			<div class="moviedata"></div>
+	<section id="movies">		
+		<article class="movie" ng-repeat="amovie in amovies">
+			<div class="moviethumb">
+				<img class="img-responsive" ng-src="http://image.tmdb.org/t/p/w92{{amovie.poster_path}}" alt="{{amovie.original_title}}" >
+			</div>
+			<div class="moviedata">
+				<h2><a href="#">{{amovie.original_title}}</a></h2>
+			</div>
 		</article>
-	</section>
-	
+	</section>	
 </div>
