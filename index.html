@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appMovies">
+<head>
+	<meta charset="UTF-8">
+	<meta name=description content="Angular Webapp to search info about movies" />
+	<meta name=viewport content="initial-scale=1.0, width=device-width"/>
+	<title>MOVIES</title>
+	<link rel="shortcut icon" href=assets/imgs/favicon.png>
+	<link type=text/plain rel=author href=assets/humans.txt>
+	<link href='https://fonts.googleapis.com/css?family=Catamaran:400,200,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="libs/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="container">	
+	<!-- <p>{{2 + 3}}</p>  test angular -->
+
+	<!-- @begin HEADER - NG-VIEW -->
+	<header>
+		<img class="img-responsive" src="assets/imgs/logoMovies.png" alt="logotipo Movies">
+		<nav>
+	        <ul id="menu" class="nav navbar-nav">
+	          <li><a class="nav-link" ng-href="#/popular">popular</a></li>
+	          <li><a class="nav-link" ng-href="#/upcoming">upcoming</a></li>
+	          <li><a class="nav-link" ng-href="#/nowPlaying">now Playing</a></li>
+	          <li><a class="nav-link" ng-href="#/topRated">top Rated</a></li>
+	        </ul>
+      	</nav>
+      	<div class="clear"></div>
+	</header>
+	<!-- €end HEADER -->
+	<!-- @begin MAIN - -->
+	<main>		
+		<div ng-view></div>		
+	</main>
+	<!-- @end MAIN -->
+	<!-- @begin footer -->
+	<footer></footer>
+	<!-- @end footer -->
+	<!-- libraries -->
+	<script src="libs/js/angular.js"></script>	
+	<script src="libs/js/angular-route.js"></script>
+	<script src="libs/js/jquery.min.js"></script>
+	
+	<!-- application files -->
+	<script src="js/app.js"></script>
+	<!-- <script src="js/config/index.js"></script> -->
+	<script src="js/controllers/movControllers.js"></script>
+	<script src="js/services/movServices.js"></script>
+	<script src="js/routing/movRouting.js"></script>
+
+</body>
+</html>

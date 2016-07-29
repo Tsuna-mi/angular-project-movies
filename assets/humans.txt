@@ -1,0 +1,26 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+
+    Web developers:
+    Ana Gamito | _imaginarte@gmail.com_  | @tsuna__mi
+    
+    From: 
+    Barcelona, Spain.
+  
+                        
+/* THANKS */
+
+    Skylab Team (http://www.skylabcoders.com/)                            
+
+
+/* TECHNOLOGY COLOPHON */
+
+    HTML5, CSS3, ANGULAR JS, JQUERY, BOOSTRAP, GIT
+    API The Movie DB 
+    Logo based on a design by Freepik[http://www.freepik.es/vector-gratis/proyector-de-pelicula-de-dibujos-animados_779802.htm]
+   
+    
+
+    Last update: 2016/07/29

@@ -1,0 +1,74 @@
+/*------colors palette -------
+verde osc #289976
+verde #67CC8E
+verde claro #B1FF91
+amarillo #FFE877
+naranja #FF5600
+*/
+
+html,body{
+	height: 100%;
+}
+
+body {
+	width: 80%;
+    background-color: #FFE877;		/*amarillo*/
+  	color: #FF5600;					/*naranja*/
+  	font-family: 'Catamaran', sans-serif;
+  	letter-spacing: 1px;
+}
+header{
+	display: block;
+	width: 100%;
+	background-color: #67CC8E;	/*verde*/
+}
+
+header img{
+	float: left;
+	max-width: 180px;
+	padding: 10px 25px;
+}
+
+/*main menu*/
+#menu.nav{
+	margin:45px 15px 10px ;
+	float: right;
+	
+}
+#menu.nav li{
+	text-transform: capitalize;
+	padding:5px;
+}
+#menu.nav li a{
+	color: #FF5600;		/*naranja*/
+}
+#menu.nav li a:hover{
+	background-color: #FFE877;	/*amarillo*/
+	color:#289976; 				/*verde oscuro*/
+	border-radius: 30px;
+}
+
+#menu.nav li a:focus{
+	background-color: rgba(255,232,119,0.45);	/*amarillo*/
+	border-radius: 30px;
+	color: #FF5600;				/*naranja*/
+	text-decoration: underline;
+
+}
+.clear{
+	clear: both;
+}
+/*main content*/
+main{
+	display: block;
+	background-color: #289976;		/*verde oscuro*/
+	padding: 15px;
+}
+#movies{
+	/*background-color: rgba(255,232,119,0.45);	amarillo*/
+	background-color: white;	/*amarillo*/
+	border-radius: 25px;	
+	height: 600px;
+	padding: 25px 10px;	
+	display:flex; 
+}
